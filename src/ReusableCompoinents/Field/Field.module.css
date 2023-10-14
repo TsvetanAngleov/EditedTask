@@ -1,0 +1,51 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-self: space-between;
+  padding-left: 2rem;
+}
+
+.field {
+  display: flex;
+  max-width: 10rem;
+  justify-content: space-between;
+}
+
+input {
+  height: 2rem;
+  border: none;
+  outline: none;
+}
+
+input:focus {
+  border: 2px solid green;
+}
+
+label {
+  display: none;
+}
+
+.checkbox {
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  max-width: max-content;
+  align-items: center;
+}
+
+.checkbox input {
+  width: 1rem;
+  margin: 0;
+  margin-right: 0.5rem;
+}
+
+.checkbox label {
+  display: inline;
+  margin: 0;
+}
+
+.error_message{
+    font-size: 12pt;
+    color: red;
+    max-width: 10rem;
+    text-align: left;
+}

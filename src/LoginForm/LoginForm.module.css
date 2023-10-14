@@ -1,0 +1,49 @@
+.container {
+  padding: 20px;
+  background-color: #fff;
+  width: 40vw;
+  height: 30vh;
+  border-radius: 25px;
+  position: relative;
+}
+
+.header {
+  color: #b4abf2;
+  font-size: 8px;
+}
+
+.login_field {
+  margin-top: 10px;
+}
+
+.container input[type="checkbox"] {
+  accent-color: #5d47ef;
+}
+
+input[type="checkbox"]:hover {
+  filter: brightness(1.5);
+  accent-color: #5d47ef;
+}
+
+.submit_button {
+  display: flex;
+  justify-content: center;
+  width: 40vw;
+  position: absolute;
+  bottom: 10px;
+  left: 0px;
+}
+
+.submit_button button {
+  width: 10vw;
+  height: 5vh;
+  border-radius: 10px;
+  background: linear-gradient(
+    90deg,
+    rgba(134, 117, 243, 1) 0%,
+    rgba(134, 117, 243, 1) 60%,
+    rgba(93, 71, 239, 1) 100%
+  );
+  color: #fff;
+  min-width: 50px;
+}

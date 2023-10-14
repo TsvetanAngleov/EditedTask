@@ -1,0 +1,30 @@
+.container {
+  width: 70vw;
+  height: 80vh;
+  margin-top: 10vh;
+  margin-left: 15vw;
+  border: 1px solid #ff24bd;
+  background-color: #7f6cf2;
+  display: flex;
+  justify-content: center;
+}
+
+.logout_page {
+  font-size: 24px;
+  color: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+  align-items: center;
+}
+
+.logout_button button {
+  font-size: 16px;
+  color: #000;
+  height: 10vh;
+  width: 10vw;
+  min-width: 50px;
+  min-height: 50px;
+  border-radius: 5px;
+}
